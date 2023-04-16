@@ -1,0 +1,30 @@
+{
+  "app_title": "نوربند",
+  "language": "اللغة",
+
+  "home": "خانه",
+  "menu": "مینو",
+  "welcome_message": "اهلا بكم",
+  "lookup": "لوکب",
+  "search": "جستجو",
+  "light": "روشن",
+  "dark": "تاریک",
+
+  "find_choice_here": "الچویس حیر خبیبی",
+  "long_text": "این یک متن بسیار تولانی میباشد.این یک متن بسیار تولانی میباشد.این یک متن بسیار تولانی میباشد.",
+  "buy_now": "الان بای",
+  "new_arrival": "الان ارایوال",
+  "featured_products": "عالی پرودکتس",
+  "sixty_percent_off": " 60% تخفیف",
+  "weekly_deals": "هفته دیلس اوفر",
+  "sign_newsletter": "راجستر ایمل",
+  "sign_up": "راجستر",
+  "view_product": "تماشا پرودکت",
+  "contact_us": "کانتکت",
+  "name": "اسم",
+  "email": "ایمل",
+  "message": "میسیچ",
+  "send": "ارسال",
+  "about_us": "درباره ما",
+  "days_since_release": "لقد مرت {{number_of_days}} أيام على إصدار هذا الفيديو"
+}

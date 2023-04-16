@@ -1,0 +1,173 @@
+.card {
+  // transition-property: background-color, width;
+  &:hover {
+    transition: var(--transition);
+    transform: scale(1.01);
+  }
+}
+
+// .card-media {
+//   background-size: contain;
+//   background-position: center;
+//   background-repeat: no-repeat;
+// }
+
+
+.product__description {
+  min-height: 3rem;
+}
+.card-actions {
+  display: flex;
+  padding: 3rem;
+  justify-content: space-between;
+}
+.star {
+  margin-right: 2px; /* Add spacing between stars */
+  font-size: 18px; /* Adjust size as needed */
+  color: var(--light-primary); /* Set color for stars */
+  //   border: 1px solid black;
+}
+
+.active {
+  color: #d8bb00; /* Set color for active stars */
+}
+
+.btn-light {
+  background-color: black;
+}
+.btn-dark {
+  background-color: var(--light-secondary);
+  color: var(--light-text);
+}
+
+.cart {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.card button {
+  font-size: 0.9rem;
+  padding: 6px 20px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 5px;
+}
+
+// *********** cookie modal styles ***************
+
+.cookie-cont.light,
+.cookie-cont.dark {
+  background-color: var(--light-secondary);
+  position: fixed;
+
+  left: 50%;
+  top: 75%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 3;
+  width: 20rem;
+  padding: 8px 12px;
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--color-bg);
+  border-radius: 10px;
+
+  transition: border 300ms ease-in-out;
+
+  &:hover {
+    border-color: var(--color-primary);
+  }
+
+  img {
+    width: 120px;
+  }
+
+  .cookie-content {
+    p {
+      color: var(--light-text);
+      margin-bottom: 0.5rem;
+
+      a {
+        text-decoration: underline;
+        font-size: inherit;
+      }
+    }
+    .modal-buttons {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+  // visibility: hidden;
+  opacity: 0;
+}
+
+// ******************* icon styles **************
+.lang-modal {
+  background-color: lightgreen;
+  position: absolute;
+  top: 80px;
+  right: 5.2rem;
+
+  width: fit-content;
+  height: fit-content;
+  padding: 6px 8px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 8px;
+  z-index: 100;
+
+  .language-list {
+    padding: 10px 6px;
+
+    .lang-name {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin-bottom: 0.2rem;
+    }
+
+    .header__langs {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 0.15rem;
+
+      .fi {
+        font-size: 18px;
+        border-radius: 4px;
+        margin: 3px 3px;
+      }
+
+      button {
+        font-size: 0.7rem;
+        min-width: 60px;
+        padding: 4px 8px;
+      }
+    }
+  }
+}
+
+.lang-modal.light {
+  background-color: var(--light-secondary);
+  color: var(--);
+}
+
+.lang-modal.dark {
+  background-color: var(--color-secondary);
+  border: 1px solid var(--light-secondary);
+}
+
+.disabled {
+  background-color: gray;
+}
+
+.hidden {
+  display: none;
+}
+
+.content {
+  padding: 10px;
+  background: lightblue;
+}

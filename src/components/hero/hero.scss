@@ -1,0 +1,58 @@
+.hero {
+  height: 100vh;
+  background-image: url("../../files/images/vector.svg");
+  background-size: 90% 90%;
+  background-repeat: no-repeat;
+  background-position: 130px 50px;
+  padding: 150px 400px 200px 200px;
+
+  h1 {
+    margin-bottom: 1rem;
+    text-shadow: 1px 0 1px black, 0 1px 1px black, -1px 0 1px black,
+      0 -1px 1px black;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+}
+
+.hero.light {
+  background-color: var(--light-bg);
+  color: var(--light-text);
+}
+
+.hero.dark {
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+
+  button {
+    background-color: var(--light-bg);
+    color: var(--light-text);
+  }
+
+  button:hover {
+    background-color: var(--light-secondary);
+  }
+}
+
+// ************** Media Queries ***************
+
+@media screen and (max-width: 992px) {
+  .hero {
+    background-size: 80% 80%;
+    padding: 80px 200px 100px 90px;
+    button {
+      font-size: 1rem;
+      padding: 8px 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero {
+    padding: 80px 100px 100px 70px;
+  }
+}

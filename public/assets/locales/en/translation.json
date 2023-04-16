@@ -1,0 +1,28 @@
+{
+  "app_title": "Nurband",
+  "language": "Language",
+  "home": "Home",
+  "menu": "Menu",
+  "lookup": "Lookup",
+  "search": "Search",
+  "light": "Light",
+  "dark": "Dark",
+
+  "find_choice_here": "Find Your Products Here",
+  "long_text": "We offer the best products, with high quality and easy delivery service. Seek your products here.",
+  "buy_now": "Buy Now",
+  "new_arrival": "New Arrivals",
+  "featured_products": "Featured Products",
+  "sixty_percent_off": "60% off",
+  "weekly_deals": "Weekly deals offer 60% off for certain products",
+  "sign_up": "Sign up",
+  "sign_newsletter": "Sign up for newsletters",
+  "view_product": "View product",
+  "contact_us": "Contact Us",
+  "name": "Name",
+  "email": "Email",
+  "message": "Message",
+  "send": "Send",
+  "about_us": "About Us",
+  "days_since_release": "it's been {{number_of_days}} days since this video was released"
+}

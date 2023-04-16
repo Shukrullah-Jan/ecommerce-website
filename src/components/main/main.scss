@@ -1,0 +1,47 @@
+.main {
+  position: relative;
+}
+
+
+.main .call-to-action__banner {
+  background-image: linear-gradient(
+    to top left,
+    var(--color-primary) 30%,
+    var(--color-secondary)
+  );
+  min-height: 10rem;
+  padding: 50px;
+  h2,
+  p {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+.newsletter {
+  padding: 50px;
+  border-top: 1px solid var(--light-secondary);
+
+  .newsletter__heading {
+    margin-bottom: 1rem;
+  }
+
+  input {
+    background-color: var(--light-primary);
+    color: var(--color-text);
+    margin: 0.3rem 0.8rem 1rem 0;
+    padding: 8px 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+
+    &::placeholder {
+      color: var(--color-text);
+    }
+
+    &::selection {
+      background-color: var(--color-secondary);
+      color: var(--color-text);
+    }
+  }
+}

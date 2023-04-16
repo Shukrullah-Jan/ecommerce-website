@@ -1,0 +1,36 @@
+.featured-products {
+  padding: 100px 100px 20px 200px;
+  border-top: 1px solid var(--light-text);
+
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0 2rem;
+
+  }
+  .products {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    .card:hover {
+      box-shadow: 5px 5px 20px var(--light-primary);
+    }
+  }
+}
+
+// ************** Media Queries ***************
+
+@media screen and (max-width: 992px) {
+  .featured-products {
+    padding: 80px 50px 100px 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .featured-products {
+    padding: 80px 30px 100px 30px;
+  }
+}

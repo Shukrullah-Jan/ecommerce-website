@@ -1,0 +1,124 @@
+.main-cart {
+  .main-cart__products-cont {
+    section {
+      min-height: fit-content;
+      margin: 0;
+      padding: 0;
+      border-top: 1px solid var(--light-secondary);
+    }
+  }
+
+  .main-cart__header {
+    background-image: linear-gradient(
+      to top left,
+      var(--color-primary) 30%,
+      var(--color-secondary)
+    );
+    padding: 50px;
+
+    h2,
+    p {
+      text-align: center;
+    }
+  }
+
+  // table of cart products
+  .main-cart__products-cont {
+    .table {
+      overflow: auto;
+      padding: 50px;
+
+      table {
+        min-width: 80vw;
+        border-collapse: collapse;
+        text-align: center;
+
+        thead {
+          tr {
+            border-top: 2px solid var(--color-primary);
+            border-bottom: 2px solid var(--color-primary);
+
+            th {
+              font-size: 0.9rem;
+              text-transform: uppercase;
+              padding: 10px;
+            }
+          }
+        }
+
+        tbody {
+          tr img {
+            width: 50px;
+          }
+
+          tr td .remove-product {
+            font-size: 28px;
+            color: var(--danger);
+            cursor: pointer;
+          }
+        }
+        tr {
+          border-bottom: 1px solid var(--color-primary);
+        }
+      }
+    }
+
+    .main-cart__coupon {
+      padding: 50px;
+
+      h3 {
+        margin-bottom: 1rem;
+      }
+      .coupon__form {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        input {
+          padding: 6px 16px;
+          margin-right: 0.8rem;
+        }
+        .basic-btn {
+          font-size: 0.9rem;
+          padding: 6px 12px;
+        }
+      }
+    }
+
+    .main-cart__cart-totals {
+      padding: 50px;
+
+      h3 {
+        margin-bottom: 1rem;
+      }
+      .cart-totals-table {
+        box-shadow: 1px 2px 8px black;
+        border-collapse: collapse;
+        margin-bottom: 1rem;
+        border: 1px solid var(--color-primary);
+        tbody tr {
+          border-bottom: 1px solid var(--color-primary);
+
+          td {
+            padding: 1rem;
+            border-right: 1px solid var(--color-primary);
+          }
+        }
+      }
+    }
+  }
+
+  // empty cart section
+  .main-cart__empty-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img {
+      width: 300px;
+    }
+
+    h2 {
+      margin: 1rem 0;
+    }
+  }
+}

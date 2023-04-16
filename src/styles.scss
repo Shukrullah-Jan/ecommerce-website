@@ -1,0 +1,81 @@
+:root {
+  --color-bg: #222831;
+  --color-primary: #00adb5;
+  --color-secondary: #393e46;
+  --color-text: #eeeeee;
+
+  --light-bg: #f9f7f7;
+  --light-primary: #3f72af;
+  --light-secondary: #dbe2ef;
+  --light-text: #053c7a;
+
+  --danger: rgb(255, 97, 97);
+  // transitions
+  --transition: all 100ms;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+
+.card.light {
+  background-color: var(--light-secondary);
+  color: var(--light-text);
+}
+
+.card.dark {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+button {
+  background-color: var(--light-text);
+  color: var(--light-bg);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  outline: 0;
+  border: 0;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: var(--light-primary);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: var(--light-primary);
+}
+
+.basic-btn {
+  font-size: 0.9rem;
+  padding: 6px 12px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.light a {
+  color: var(--light-text);
+}
+
+.dark a {
+  color: var(--color-text);
+}
+
+h1,
+.footer-titles {
+  text-shadow: 0 0 30px var(--color-bg);
+}
+
+.hover-pointer {
+  cursor: pointer;
+}
+
+// ***************** language modal styles ***************
